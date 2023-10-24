@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class gamePain {
  
     public static void main(String[] args) {
-        String menu = "===============================================\n | Complementary & Supplementary Angle Program |\n --- Main Menu ---";
-        System.out.println("\n");
+        System.out.println("===============================================");
+        System.out.println("| Complementary & Supplementary Angle Program |");
+        System.out.println("\t     --- Main Menu ---\n");
         System.out.println("[1] Automation/Calculator");
         System.out.println("[2] Student Debt Game");
-        System.out.println("[0] Exit\n");
+        System.out.println("[0] Exit");
         System.out.println("===============================================");
         
         //select option
