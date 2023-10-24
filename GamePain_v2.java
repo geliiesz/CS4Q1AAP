@@ -3,12 +3,15 @@ package QuarterOne;
 import java.util.Scanner;
 
 public class gamePain {
-
+ 
     public static void main(String[] args) {
-        System.out.println("\nComplementary and Supplementary Angles");
+        String menu = "===============================================\n | Complementary & Supplementary Angle Program |\n --- Main Menu ---";
+        System.out.println("\n");
         System.out.println("[1] Automation/Calculator");
         System.out.println("[2] Student Debt Game");
-        System.out.println("[0] Exit");
+        System.out.println("[0] Exit\n");
+        System.out.println("===============================================");
+        
         //select option
         Scanner choice = new Scanner(System.in);
         int Choice = choice.nextInt();
