@@ -10,7 +10,8 @@ public class gamePain {
         System.out.println("\t     --- Main Menu ---\n");
         System.out.println("[1] Automation/Calculator");
         System.out.println("[2] Student Debt Game");
-        System.out.println("[0] Exit");
+        System.out.println("[0] Exit\n");
+        System.out.println("Your Choice? "); //pagcook diri dyll
         System.out.println("===============================================");
         
         //select option
