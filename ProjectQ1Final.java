@@ -276,7 +276,7 @@ public class ProjectQ1Final {
                     System.out.println(optHead);
                     String gainTab = "[/] + " + (int) (payAmt * 1000) + " robux  |";
                     for (int i=0; i<(23-gainTab.length()); i++) System.out.print(" ");
-                    System.out.println(gainTab + "  [x] + " + (int) ((payAmt * 1000)+750) + " robux, + 25-50%");
+                    System.out.println(gainTab + "  [/] + " + (int) ((payAmt * 1000)+750) + " robux, + 25-50%");
                     System.out.println("    [x] - 1000 robux  |  [x] - " + (int) (payAmt * 2000) + " robux, + 15-30%");
                     System.out.print("Choose task: ");
 
@@ -332,7 +332,7 @@ public class ProjectQ1Final {
                         } else {
                             System.out.println("Incorrect! The answer is " + correctAnswer + "!");
                             debtI++;
-                            System.out.println("\nT&H CO:We expected better. Your debts increased by 1000 robux");
+                            System.out.println("\nT&H CO: We expected better. Your debts increased by 1000 robux");
                             System.out.println("Your total debt is now " + (int) (debtI * 1000) + " robux");
                         }
                     } 
@@ -419,7 +419,7 @@ public class ProjectQ1Final {
                             System.out.println("\u001B[32mYOU WON! You successfully paid off your debt! have now exited the program.");
                             System.out.println("\u001B[32mYour partnership with Trexty and Hardy Incorporated");
                             System.out.println("\u001B[32mhas ended as you continue your journey independently.");
-                            System.out.print("\n\u001B[0mPress ENTER ro return to main menu");
+                            System.out.print("\n\u001B[0mPress ENTER to return to main menu");
                             choice.nextLine();
                             String holder2 = choice.nextLine();
                             Cont = 0;
@@ -437,7 +437,7 @@ public class ProjectQ1Final {
                             System.out.println("\u001B[31mThe Internal Revenue Bureau sentenced you to a total..");
                             System.out.println("\u001B[31m10 YEARS IN ALCATRAZ PRISON!");
                             System.out.println("\u001B[31mUntil then, you suffer living in lonely misery.");
-                            System.out.print("\n\u001B[0mPress ENTER ro return to main menu");
+                            System.out.print("\n\u001B[0mPress ENTER to return to main menu");
                             choice.nextLine();
                             String holder2 = choice.nextLine();
                             Cont = 0;
