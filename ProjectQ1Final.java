@@ -212,7 +212,7 @@ public class ProjectQ1Final {
                     }
             if (Choice == 2) {
                 double debtI = 150; 
-                double payAmt = 4;
+                double payAmt = 10;
                 //intro to game
                 System.out.println("\n===============================================");
                 System.out.println("| Complementary & Supplementary Angle Program |");
@@ -262,7 +262,7 @@ public class ProjectQ1Final {
                 Runnable timerOut = new Runnable() {
                     @Override
                     public void run() {
-                        scheduler.shutdown();
+                        scheduler.shutdownNow();
                         System.out.println("\u001B[31m[GAME] TIME RAN OUT! Finalize Inputs!");
                         System.out.print("Continue input here: ");
                     }
@@ -419,6 +419,7 @@ public class ProjectQ1Final {
                             System.out.println("\u001B[32mYOU WON! You successfully paid off your debt! have now exited the program.");
                             System.out.println("\u001B[32mYour partnership with Trexty and Hardy Incorporated");
                             System.out.println("\u001B[32mhas ended as you continue your journey independently.");
+                            scheduler.shutdownNow();
                             System.out.print("\n\u001B[0mPress ENTER to return to main menu");
                             choice.nextLine();
                             String holder2 = choice.nextLine();
