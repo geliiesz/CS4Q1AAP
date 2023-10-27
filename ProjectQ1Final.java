@@ -314,9 +314,9 @@ public class ProjectQ1Final {
                         //enter 1 if complementary and 2 if supplementary
                         int comOrSup = 0;
                         while (comOrSup != 1 && comOrSup != 2) {
-                            System.out.println("Invalid output. Input should be 1 or 2.");
                             System.out.print("Answer: ");
                             comOrSup = choice.nextInt();
+                            if (comOrSup != 1 && comOrSup != 2) System.out.println("Invalid output. Input should be 1 or 2.");;
                         }
                         
                         
